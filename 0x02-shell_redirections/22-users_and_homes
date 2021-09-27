@@ -1,2 +1,2 @@
 #!/bin/bash
-sort /etc/passwd | cat -A /etc/passwd
+sort /etc/passwd | cut -d':' -f 1,6
